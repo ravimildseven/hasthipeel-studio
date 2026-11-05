@@ -1,5 +1,5 @@
 {
-  "name": "bramble-hollow-studio",
+  "name": "hasthipeel-studio",
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts",
