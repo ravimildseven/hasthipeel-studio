@@ -54,7 +54,7 @@ EOF
 npx tsc --noEmit
 mkdir -p "out/$SLUG"
 npx remotion render src/index.ts Episode "out/$SLUG/raw.mp4" \
-  --browser-executable=/opt/pw-browsers/chromium \
+  \
   --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k --log=error
 ffmpeg -v error -y -i "out/$SLUG/raw.mp4" -c copy -movflags +faststart "out/$SLUG/$SLUG.mp4"
 rm -f "out/$SLUG/raw.mp4"

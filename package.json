@@ -3,7 +3,11 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "still": "remotion still src/index.ts",
+    "render": "remotion render src/index.ts",
+    "sheet": "remotion still src/index.ts CharacterSheet out/character-sheet.png",
+    "demo": "remotion render src/index.ts TalkDemo out/talk-demo.mp4"
   },
   "dependencies": {
     "@remotion/cli": "4.0.290",

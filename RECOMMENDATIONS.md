@@ -122,11 +122,11 @@ rather than pretending to be one. Use it in overlay and brand positions, not as 
 Render anything with:
 
 ```bash
-npx remotion still src/index.ts Thumbnail out/thumbnail.png --browser-executable=/opt/pw-browsers/chromium
+npx remotion still src/index.ts Thumbnail out/thumbnail.png
 ```
 
 ```bash
-npx remotion render src/index.ts GfxDemo out/gfx-demo.mp4 --browser-executable=/opt/pw-browsers/chromium --codec=h264
+npx remotion render src/index.ts GfxDemo out/gfx-demo.mp4 --codec=h264
 ```
 
 ---
